@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>fromulario con css</title>
+  <link rel="stylesheet" type="text/css" href="estilos-form.css">
+</head>
+<body>
+<form>
+  <label for="nombre">Nombre:</label>
+   <input type="text" name="nombre" size="40" placeholder="Escribe tu nombre">
+   <label for="apellido">Apellidos:</label>
+   <input type="text" name="Apellidos" size="40" placeholder="Apellidos">
+   <label for="fecha">Ingresa tu fecha de nacimintos:</label>
+   <input type="date" name="fecha" id="fecha">
+   <label for="edad"> Edad:</label>
+   <input type="number" name="edad" min="1900" id="Edad">
+   <label  for="email">Email:</label>
+   <input type="email" id="email" name="email" placeholder="Escribe tu email" id="email">
+   <p>
+    <label class="radio1">
+        <!-- Input oculto -->
+        <input class="radio1" type="radio" name="genero" value="mujer" checked>
+        <!-- Imagen en sustitucion -->
+        <span class="radio2"></span>
+        <!-- Texto -->
+        <span class="radio2">Mujer</span>
+    </label>
+</p>
+<p>
+    <label class="radio1">
+        <!-- Input oculto -->
+        <input class="radio1" type="radio" name="genero" value="hombre">
+        <!-- Imagen en sustitucion -->
+        <span class="radio2"></span>
+        <!-- Texto -->
+        <span class="radio2">Hombre</span>
+    </label>
+</p>
+
+   <label for="Buzón">Buzón de quejas:</label>
+<textarea id="Buzón"></textarea>
+<p>Hora: <input type="time" name="hora"> </p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+</form>
+</body>
+</html>

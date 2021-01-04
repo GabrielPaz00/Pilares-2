@@ -1,0 +1,30 @@
+form {
+	width: 25%;
+	border: 1px solid #606060;
+	margin: 20px;
+	padding: 20px;
+	background: #4e71ba;
+}
+label, p {
+	font-size: 16px;
+	display: block;
+	width: 100%;
+	color: #fff;
+	font-family: 'Oswal', sans-serif;
+}
+input {
+	border-radius: 5px;
+}
+input textarea {
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #008ad3;
+}
+input {
+	outline: 
+}
+input:focus {
+	border: 1px solid #008ad3;
+}
